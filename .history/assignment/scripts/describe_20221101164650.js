@@ -133,13 +133,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-// FIX change the value of colorOne to `blue`, and the value of colorTwo to `red`
+// FIX change the value of colorOne to blue, and the value of colorTwo to red
 
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-// FIX add "colorTwo = `purple`;" in a new line between "colorOne = `purple`;" and the closing curly bracket
+// FIX add "colorTwo = `purple`;" in a new line, between "colorOne = `purple`;" and the closing curly bracket
 
 if (mix === true) {
   colorOne = 'purple';
@@ -155,7 +155,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-// FIX change || to && because it's an AND statement, not an OR statement
+// FIX 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -169,7 +169,6 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// FIX swap the console.log values for the if and else statements; otherwise it will log `enter` when age is less than 21 and `no entry` when age is greater than 21, which is the opposite of what we want
 if(minAge <= age) {
   console.log('no entry');
 } else {

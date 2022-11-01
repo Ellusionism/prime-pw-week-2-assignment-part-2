@@ -76,8 +76,7 @@ console.log(secret)
 // If isStudent is equal to true AND zip is greater than 80000, the console will log `You're a student on the West Coast!`
 // If the first statement was false, and isStudent is equal to false OR age is less than 30, the console will log `What are your hobbies?`
 // If both of the first two statements are false, and isStudent is equal to true, the console will log `Welcome to Prime!`
-// If none of the first three statements are true, the console will log `How about the weather?`
-// The console will log `Welcome to Prime!`, because isStudent is equal to true, zip is less than 80000, and age is greater than 30
+//
 
 //CODE
 /*
@@ -96,6 +95,7 @@ if (isStudent === true && zip > 80000 ) {
 }
 */ 
 
+//
 
 
 
@@ -133,13 +133,9 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-// FIX change the value of colorOne to `blue`, and the value of colorTwo to `red`
-
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
-// FIX add "colorTwo = `purple`;" in a new line between "colorOne = `purple`;" and the closing curly bracket
 
 if (mix === true) {
   colorOne = 'purple';
@@ -151,11 +147,9 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
-// FIX time should be a let variable, because it will most likely be changing
 let temp = 40;
 const time = 4;
 
-// FIX change || to && because it's an AND statement, not an OR statement
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -169,7 +163,6 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// FIX swap the console.log values for the if and else statements; otherwise it will log `enter` when age is less than 21 and `no entry` when age is greater than 21, which is the opposite of what we want
 if(minAge <= age) {
   console.log('no entry');
 } else {

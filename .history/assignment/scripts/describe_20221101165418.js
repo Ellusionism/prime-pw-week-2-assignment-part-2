@@ -169,7 +169,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// FIX swap the console.log values for the if and else statements; otherwise it will log `enter` when age is less than 21 and `no entry` when age is greater than 21, which is the opposite of what we want
+// FIX swap the console.log values for the if and else statements, otherwise it will only log `enter` when age is less than 21
 if(minAge <= age) {
   console.log('no entry');
 } else {
